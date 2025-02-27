@@ -1,0 +1,59 @@
+.contactus {
+    padding: 2rem;
+    background-color: #5d61dcde;
+    text-align: center;
+  }
+  
+  .contactus h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: rgb(0, 20, 91);
+  }
+  
+  .contactus p {
+    color: rgb(29, 12, 0);
+    padding: 5px;
+    text-align: justify;
+  }
+  .contact-items {
+    color: #776220;
+    margin-top: 30px;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+  .contact {
+    margin: 12px;
+    width: 320px;
+    background-color: #eae9e9;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease; /* Adjust timing as needed */
+
+  }
+  .contact:hover {
+    transform: scale(1.02);
+  }
+  
+  .contact img {
+    height: 80px;
+width: 80px;
+border-radius: 50%;
+object-fit: cover;
+  }
+  
+  .contact h3 {
+  text-align: center;
+    margin: 1.2rem 0;
+    font-size: 1.25rem;
+  }
+  .contact p {
+    text-align: center;
+    line-height: 1.6;
+
+  }
