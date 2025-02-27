@@ -1,0 +1,50 @@
+/* src/components/OverviewSection.css */
+.overview {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .overview-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: rgb(0, 20, 91);
+    margin-bottom: 10px;
+  }
+  
+  .overview-subtitle {
+    font-size: 1.1rem;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .overview-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .overview-text {
+    width: 40%;
+    text-align: left;
+    padding-right: 10px;
+  }
+  
+  .overview-image img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+
+  }
+  
+  .overview-image img:hover {
+    transform: scale(1.01); /* Increase to 1.1x size */
+  }
+  
+  
